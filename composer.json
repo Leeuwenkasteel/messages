@@ -1,0 +1,30 @@
+{
+    "name": "leeuwenkasteel/messages",
+    "description": "email, notifications and chat options",
+    "type": "package",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Sanne van Leeuwen",
+            "email": "sanne@leeuwenkasteel.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Leeuwenkasteel\\Messages\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leeuwenkasteel\\Messages\\MessagesServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
